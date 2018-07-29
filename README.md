@@ -1,6 +1,7 @@
 # DROPBOX_LIKE
 A simple dropbox-like network application.
-[I].The concept of this homework is like dropbox.
+
+### [I].The concept of this homework is like dropbox.
   First, an user can save his files on the server.
   Second, the clients of the user are running on different hosts.
   Third, when any of client of the user upload a file, the server have to transmit it to all the other clients of the user.
@@ -14,7 +15,7 @@ Note: In your server program, you should include these two lines to achieve the 
    "fcnctl(sock,F_SETTFL,flag|O_NONBLOCK);"
    Please confirm that your server is non-blocking, we will test the correctness of your server when the server's sending buffer is full.
 
-[II].Inputs
+### [II].Inputs
    1. ./client <ip> <port> <username>
 	  Please make sure that the you should excute the client program in this format.
 
@@ -34,7 +35,7 @@ Note: In your server program, you should include these two lines to achieve the 
        This command is to disconnect with server and terminate the program.
 
 
-[III].Outputs
+### [III].Outputs
    1. Welcome message. 
       "Welcome to the dropbox-like server! : <username>" 
    2. Uploading progess bar.
