@@ -1,4 +1,4 @@
-# DROPBOX_LIKE
+# FileSyncApp
 A simple dropbox-like network application.
 
 ### [I].The concept of this homework is like dropbox.
